@@ -1,0 +1,11 @@
+<!-- <a href="login.html" class="btn btn-danger">Logout</a> -->
+<button onclick="logout()" class="btn btn-danger">Logout</button>
+
+<script>
+  function logout() {
+    sessionStorage.clear();  
+    window.location.href = "login.html";  
+  }
+</script>
+
+<!--   <a href="logout.php" class="btn btn-danger">Logout</a>   -->
